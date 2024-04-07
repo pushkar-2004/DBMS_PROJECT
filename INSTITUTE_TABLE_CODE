@@ -1,0 +1,36 @@
+CREATE TABLE INST(
+    INSTITUTE_CODE INT PRIMARY KEY,
+    INSTITUTE_NAME VARCHAR(100),
+    ESTABLISHMENT_YEAR INT,
+    NIRF INT,
+    IMAGE_SRC VARCHAR(100),
+    STATE VARCHAR(50),
+    INSTITUTE_ADDRESS VARCHAR(100),
+    CTC FLOAT
+);
+INSERT ALL
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (101, 'IIT Bhubaneswar', 2008, 27, 'NULL', 'Odisha', 'Bhubaneswar Argul', 24.28)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (102, 'IIT Bombay', 1958, 3, 'NULL', 'Maharashtra', 'Powai, Mumbai, Maharashtra', 30.85)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (103, 'IIT Mandi', 2009, 33, 'NULL', 'Himachal Pradesh', 'Parashar Road, Tehsil Sadar, Near Kataula', 25.6)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (104, 'IIT Delhi', 1961, 2, 'NULL', 'Delhi', 'Hauz Khas, New Delhi', 32.89)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (105, 'IIT Indore', 2009, 14, 'NULL', 'Madhya Pradesh', 'Khandwa Road, Simrol', 28.35)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (106, 'IIT Kharagpur', 1950, 6, 'NULL', 'West Bengal', 'Paschim Medinipur, West Bengal', 30.25)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (107, 'IIT Hyderabad', 2008, 8, 'NULL', 'Telangana', 'Sangareddy, Kandi', 27.3)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (108, 'IIT Jodhpur', 2008, 30, 'NULL', 'Rajasthan', 'Nagaur Road, Karwar Jodhpur', 24.98)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (109, 'IIT Kanpur', 1959, 4, 'NULL', 'Uttar Pradesh', 'Kanpur, Kalyanpur road', 35.25)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (110, 'IIT Madras', 1959, 1, 'NULL', 'Tamil Nadu', 'Chennai, Tamil Nadu', 32)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (111, 'IIT Gandhinagar', 2008, 18, 'NULL', 'Gujarat', 'Near Village Palaj, Gandhinagar', 25.36)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (112, 'IIT Patna', 2008, 41, 'NULL', 'Bihar', 'Bihta Kanpa Rd, Patna, Dayalpur Daulatpur', 29.36)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (113, 'IIT Roorkee', 1847, 5, 'NULL', 'Uttarakhand', 'Haridwar Highway, Roorkee, Uttarakhand', 30.09)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (114, 'IIT (ISM) Dhanbad', 1926, 17, 'NULL', 'Jharkhand', 'SM, RD, Kalyanpur, Jharkhand', 28.06)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (115, 'IIT Ropar', 2008, 22, 'NULL', 'Punjab', 'Bara Phool, Punjab', 28.88)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (116, 'IIT (BHU) Varanasi', 1919, 15, 'NULL', 'Uttar Pradesh', 'Varanasi, Uttar Pradesh', 29.05)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (117, 'IIT Guwahati', 1994, 7, 'NULL', 'Assam', 'Amingaon, North Guwahati', 30.36)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (118, 'IIT Bhilai', 2016, 81, 'NULL', 'Chhattisgarh', 'Lane Road, Jevra, Chhattisgar', 22.9)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (119, 'IIT Goa', 2016, 85, 'NULL', 'Goa', 'Farmagudi, Ponda, Goa', 20.69)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (120, 'IIT Palakkad', 2015, 69, 'NULL', 'Kerala', 'Palakkad Kanjikkode ', 19.36)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (121, 'IIT Tirupati', 2015, 59, 'NULL', 'Andhra Pradesh', 'Chindepalle, Andhra Pradesh', 28.36)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (122, 'IIT Jammu', 2016, 67, 'NULL', 'Jammu and Kashmir', 'Nagrota, Jagti, Jammu and Kashmir', 21.6)
+   INTO INST (Institute_code,Institute_name,Establishment_year,NIRF,Image_src,State,Institute_address,Ctc)Values (123, 'IIT Dharwad', 2016, 93, 'NULL', 'Karnataka', 'PB Road, near High Court', 24.36)
+SELECT * FROM dual;
+SELECT * FROM INST;
